@@ -1,7 +1,5 @@
 package com.example.demo.controller;
 
-import java.util.Objects;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -17,9 +15,11 @@ import com.example.demo.service.JwtUserDetailsService;
 import com.example.demo.config.JwtTokenUtil;
 import com.example.demo.model.JwtRequest;
 import com.example.demo.model.JwtResponse;
+
 @RestController
 @CrossOrigin
 public class JwtAuthenticationController {
+
     private final AuthenticationManager authenticationManager;
     private final JwtTokenUtil jwtTokenUtil;
     private final JwtUserDetailsService userDetailsService;
