@@ -122,6 +122,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.security:spring-security-test:5.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.5.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:2.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.testcontainers:junit-jupiter:1.15.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.testcontainers:testcontainers:1.15.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.2" level="project" />
